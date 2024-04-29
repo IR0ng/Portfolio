@@ -1,6 +1,6 @@
 import { makeAutoObservable } from 'mobx'
 
-import HomeStore from '@/containers/Home/store/HomeStore'
+import HomeStore from '~/containers/Home/store/HomeStore'
 export class RootStore {
   homeStore: HomeStore
 

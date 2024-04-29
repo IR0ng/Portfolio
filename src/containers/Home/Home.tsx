@@ -1,12 +1,16 @@
 import React from 'react'
 
+import { Page } from '~/components/Page'
+
+import Profile from '../Profile'
+import Project from '../Project'
+
 const Home = () => {
   return (
-    <div className="flex flex-col h-max">
-      <div className="flex h-[108vh] items-center justify-center">
-        Home Page Pending...
-      </div>
-    </div>
+    <Page>
+      <Profile />
+      <Project />
+    </Page>
   )
 }
 
