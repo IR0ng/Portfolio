@@ -70,7 +70,7 @@ export const EXPERIENCE_LIST: IProjectProps[] = [
     type: 'Side-project',
     content: '前端、後端',
     introduction:
-      'Code Help 是目前正在參與開發的Side Project，為了解決當我們遇到與程式相關，且無法處理的緊急問題時，可以在這裡及時求救。',
+      'Code Help 是目前正在參與開發的Side Project，為了解決當我們遇到與程式相關，且無法處理的緊急問題時，可以在這裡及時尋求協助。',
   },
 ]
 
