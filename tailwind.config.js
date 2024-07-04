@@ -8,14 +8,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        black: {
-          DEFAULT: '#585858',
-          100: '#363636',
-          200: '#1E1E1E',
-        },
         gray: {
           DEFAULT: '#D9D9D9',
           100: '#777777',
+          200: '#585858',
+          300: '#363636',
+          400: '#1E1E1E',
         },
       },
     },
