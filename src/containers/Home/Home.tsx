@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react'
 import React from 'react'
 
 import { Page } from '~/components/Page'
@@ -8,6 +9,7 @@ import ProjectList from '../ProjectList'
 const Home = () => {
   return (
     <Page>
+      <Analytics />
       {/* <div className="flex items-start border">
         <Block styles="flex justify-center p-1 gap-4 rounded-xl">
           <GlobalIcon
