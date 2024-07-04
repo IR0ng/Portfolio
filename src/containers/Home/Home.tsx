@@ -1,7 +1,5 @@
-import GlobalIcon from '@mui/icons-material/Public'
 import React from 'react'
 
-import { Block } from '~/components/Block'
 import { Page } from '~/components/Page'
 
 import Profile from '../Profile'
