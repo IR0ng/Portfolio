@@ -10,7 +10,7 @@ import ProjectList from '../ProjectList'
 const Home = () => {
   return (
     <Page>
-      <div className="flex items-start border">
+      {/* <div className="flex items-start border">
         <Block styles="flex justify-center p-1 gap-4 rounded-xl">
           <GlobalIcon
             sx={{ fontSize: 25 }}
@@ -18,7 +18,7 @@ const Home = () => {
             color="primary"
           />
         </Block>
-      </div>
+      </div> */}
       <div className="flex flex-1 flex-row gap-5 overflow-hidden">
         <Profile />
         <ProjectList />
